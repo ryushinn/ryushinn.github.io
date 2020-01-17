@@ -1,3 +1,7 @@
+---
+key: test-blog
+---
+
 # H1
 
 ## H2
@@ -24,6 +28,12 @@ THIS IS A PYTHON BLOCK.
 
 
 
+normal words here!!
+
+
+
+
+
 + item 1
 + item 2
 
@@ -42,7 +52,6 @@ THIS IS A PYTHON BLOCK.
 
 
 <center><h1> HTML TEST </h1></center>
-
 Latex test: $E=mc^2$
 
 
