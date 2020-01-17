@@ -21,7 +21,7 @@ THIS IS A PYTHON BLOCK.
 """
 `````
 
-![](C:\ryushinn.github.io\assets\images\avatar_2.png)
+![大老师](..\assets\images\avatar_2.png)
 
 - [x] todo tag
 - [ ] Okay
