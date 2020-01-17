@@ -129,7 +129,7 @@ comments:
   gitalk:
     clientID    : 0018c4e4e9a4c6e8aa66 # GitHub Application Client ID
     clientSecret: c3740b5196acc4f3326ecaa0a83eb039c64ba43f # GitHub Application Client Secret
-    repository  : ryushinn/ryushinn.github.io # GitHub repo
+    repository  : ryushinn.github.io # GitHub repo
     owner       : ryushinn # GitHub repo owner
     admin: # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
       # - your GitHub Id
