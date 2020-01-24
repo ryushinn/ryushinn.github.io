@@ -5,6 +5,15 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
+# MY CONFIG
+collections:
+    diaries:
+      output: true
+
+
+# END OF MY CONFIG
+
+
 ## !USE TEXT THEME
 theme: jekyll-text-theme # Gem-based Jekyll Themes
 remote_theme: kitian616/jekyll-TeXt-theme # Jekyll Remote Theme, see https://github.com/benbalter/jekyll-remote-theme for more information.
@@ -210,6 +219,19 @@ defaults:
       layout: article
       sharing: true
       license: true
+      aside:
+        toc: true
+      show_edit_on_github: true
+      show_subscribe: true
+      pageview: true
+      
+  - scope:
+      path: ""
+      type: diaries
+    values:
+      layout: article
+      sharing: true
+      license: false
       aside:
         toc: true
       show_edit_on_github: true

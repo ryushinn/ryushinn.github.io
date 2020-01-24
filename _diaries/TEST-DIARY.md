@@ -1,6 +1,6 @@
 ---
-key: test-blog
-tag: [test, blog]
+key: test-diary
+tag: [test, diary]
 ---
 
 # H1
