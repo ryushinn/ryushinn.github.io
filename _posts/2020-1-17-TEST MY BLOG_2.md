@@ -1,7 +1,7 @@
 ---
 key: test-blog
 category: blog
-tag: [test, tag1]
+tag: [test, tag2]
 ---
 
 # H1
