@@ -1,0 +1,46 @@
+/*******************************************************************************
+ * Overwrite some styles in Bootstrap & MDB 
+ ******************************************************************************/
+
+// -- font family --
+
+/*
+Note that here are workarounds to set the default font family,
+which actually should be done by integrate the Scss version of bootstrap/MDB...
+*/
+
+// div and span inherits font first
+div,
+span {
+  font-family: inherit, Libertinus Sans, Calibri, Arial, Helvetica, sans-serif; 
+}
+
+// header + footer
+header, footer, header li {
+  font-family: Libertinus Sans, Calibri, Arial, Helvetica, sans-serif; 
+}
+
+div.news{
+  font-family: Libertinus Sans, Calibri, Arial, Helvetica, sans-serif; 
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+em,
+li,
+strong {
+  font-family: Libertinus Sans, Calibri, Arial, Helvetica, sans-serif;
+}
+
+// -- end font family --
+
+
+// Cancel uppercase for all buttons
+.btn {
+  text-transform: unset !important;
+}

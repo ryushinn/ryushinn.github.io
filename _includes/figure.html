@@ -1,15 +1,24 @@
-{%- assign img_path = include.path | remove: ".jpg" | remove: ".jpeg" | remove: ".png" | remove: ".tiff" -%}
+{%- assign img_path = include.path | remove: ".jpg" | remove: ".jpeg" | remove: ".png" | remove: ".tiff" | remove: ".gif" -%}
 
 <figure>
 
   <picture>
     {% if site.imagemagick.enabled %}
     {% for i in site.imagemagick.widths -%}
+      {% if i != 0 %}
       <source 
         class="responsive-img-srcset"
         media="(max-width: {{ i }}px)" 
         srcset="{{ img_path | relative_url }}-{{ i }}.webp"
       />
+      {% else %}
+      <!-- fallback if the viewport width is larger than the maximal width set in .config.yml -->
+      <!-- use the original size .webp -->
+      <source 
+        class="responsive-img-srcset"
+        srcset="{{ img_path | relative_url }}.webp"
+      />
+      {% endif %}
     {% endfor -%}
     {% endif %}
 

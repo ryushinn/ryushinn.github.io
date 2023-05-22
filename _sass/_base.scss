@@ -70,6 +70,7 @@ blockquote {
 .equation {
   margin-bottom: 1rem;
   text-align: center;
+  font-family: Libertinus Math;
 }
 
 // Caption
@@ -115,12 +116,13 @@ blockquote {
 // Profile
 
 .profile {
-  width: 100%;
+  margin-left: 1rem;
+  width: 45%;
 
   .address {
     margin-bottom: 5px;
     margin-top: 5px;
-    font-family: monospace;
+    font-family: Libertinus Mono, monospace;
 
     p {
       display: inline-block;
@@ -162,7 +164,6 @@ blockquote {
     }
   }
 }
-
 
 // Navbar customization
 
@@ -326,6 +327,12 @@ blockquote {
   }
 }
 
+.view-counter {
+  margin: 0 auto;
+  width: 13%;
+  display: flex;
+  justify-content: center;
+}
 
 // Footer
 footer.fixed-bottom {
@@ -350,9 +357,10 @@ footer.fixed-bottom {
 
 footer.sticky-bottom {
   border-top: 1px solid var(--global-divider-color);
-  padding-top: 40px;
-  padding-bottom: 40px;
-  font-size: 0.9rem;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: 0.8rem;
+  text-align: center;
 }
 
 // CV
@@ -483,7 +491,6 @@ footer.sticky-bottom {
   }
 }
 
-
 // Distill
 
 .distill {
@@ -492,7 +499,6 @@ footer.sticky-bottom {
     text-decoration: none;
   }
 }
-
 
 // Projects
 
@@ -539,11 +545,9 @@ footer.sticky-bottom {
   }
 }
 
-
 // Publications
 
 .publications {
-  margin-top: 2rem;
 
   h1 {
     color: var(--global-theme-color);
@@ -580,8 +584,10 @@ footer.sticky-bottom {
 
       .preview {
         width: 100%;
-        min-width: 80px;
+        min-width: 150px;
         max-width: 200px;
+        margin-right: 1rem;
+        margin-bottom: 0.5rem;
       }
 
       .abbr {
@@ -610,21 +616,25 @@ footer.sticky-bottom {
       }
 
       .title {
+        a {
+          color: var(--global-text-color);
+        }
         font-weight: bolder;
+        font-size: larger;
       }
 
       .author {
         a {
-          border-bottom: 1px dashed var(--global-theme-color);
-
-          &:hover {
-            border-bottom-style: solid;
-            text-decoration: none;
-          }
+          color: var(--global-text-color);
+          // border-bottom: 1px dashed var(--global-theme-color);
+          // &:hover {
+          //     // border-bottom-style: solid;
+          //     // text-decoration: none;
+          // }
         }
-
-        >em {
-          border-bottom: 1px solid;
+        > em {
+          // border-bottom: 1px solid;
+          font-weight: bolder;
           font-style: normal;
         }
 
@@ -640,8 +650,18 @@ footer.sticky-bottom {
         }
       }
 
+      .periodical {
+        font-style: italic;
+      }
+
+      .add_note {
+        // placeholder
+        font-style: inherit, normal;
+      }
+
       .links {
         a.btn {
+          font-size: 0.8rem;
           color: var(--global-text-color);
           border: 1px solid var(--global-text-color);
           padding-left: 1rem;
@@ -740,8 +760,8 @@ code {
   background-color: var(--global-code-bg-color);
   border-radius: 3px;
   padding: 3px 3px;
+  font-family: Libertinus Mono, monospace;
 }
-
 
 // Transitioning Themes
 html.transition,
