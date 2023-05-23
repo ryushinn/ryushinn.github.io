@@ -48,6 +48,13 @@ title: Learning to Learn and Sample BRDFs
         Code
     </a>
 
+    <!-- Supplemental -->
+    <a type="button" class="btn btn-dark"
+        href="{{ 'liu2023learning_supplemental.zip' | prepend: '/assets/publications/metasampling/' | relative_url }}">
+        <i class="fas fa-paperclip"></i>
+        Suppl.
+    </a>
+
     <!-- ArXiv -->
     <a href="https://arxiv.org/abs/2210.03510"
         type="button" class="btn btn-dark">
@@ -56,13 +63,12 @@ title: Learning to Learn and Sample BRDFs
     </a>
 
     <!-- Publisher Version -->
-
-    <!-- Supplemental -->
-    <a type="button" class="btn btn-dark"
-        href="{{ 'liu2023learning_supplemental.zip' | prepend: '/assets/publications/metasampling/' | relative_url }}">
-        <i class="fas fa-paperclip"></i>
-        Suppl.
+    <a href="https://doi.org/10.1111/cgf.14754"
+        type="button" class="btn btn-dark">
+        <i class="fa-solid fa-right-from-bracket"></i>
+        Publisher
     </a>
+
 </p>
 </div>
 
