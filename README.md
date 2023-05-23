@@ -14,6 +14,6 @@
 - [ ] write a guide for myself and other users
 - [x] make "publication" section in About page larger
 - [x] How to update to the latest version?
-- [ ] change to template!
+- [x] change to template!
 - [x] use Sans font by default!
 - [x] synchronize the biblatex in about and project page
