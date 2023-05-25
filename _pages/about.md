@@ -27,7 +27,7 @@ projects: true # includes a list of projects
 Hi there, my name is Chen!
 
 Currently I am a MSc Computer Graphics Vision and Imaging (CGVI) student at [University College London](https://www.ucl.ac.uk/), and working on Meta-Learned Appearance Modelling supervised by Prof. [Tobias Ritschel](https://www.homepages.ucl.ac.uk/~ucactri/).
-Before that, I obtained my Bachelor degree of Computer Science from [Beihang University](https://ev.buaa.edu.cn/). During my undergrad, I interned at Prof. [Xianglong Liu](https://xlliu-beihang.github.io/)'s Lab for months, and worked at ByteDance as a graphics engine intern.
+Before that, I obtained my Bachelor degree of Computer Science from [Beihang University](https://buaa.edu.cn/). During my undergrad, I interned at Prof. [Xianglong Liu](https://xlliu-beihang.github.io/)'s Lab for months, and worked at ByteDance as a graphics engine intern.
 
 I am a graphics enthusiast who aspire to create a world satiating our childish sense of grand adventures.
 List a few things that really fascinate me: photorealistic rendering, appearance modelling, and data-driven image synthesis.

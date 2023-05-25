@@ -144,7 +144,11 @@
           {%- capture entryyear -%}{{ " " }}{{entry.year}}{%- endcapture -%}
         {%- endif -%}
         {% assign entrytype_text = entrytype | strip_html | strip %}
-        {%- capture periodical -%}{{ entrytype }}{{ entrymonth }}{{ entryyear }}{%- endcapture -%}
+        {% if entry.type == "article" and entrytype contains "Proceedings" %}
+          {%- capture periodical -%}{{ entrytype | replace_first: ")", entryyear | append: ")" }}{%- endcapture -%}
+        {%- else -%}
+          {%- capture periodical -%}{{ entrytype }}{{ entryyear }}{%- endcapture -%}
+        {%- endif -%}
         <div class="periodical">
           {{ periodical | strip }}
         </div>

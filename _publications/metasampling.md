@@ -10,7 +10,7 @@ title: Learning to Learn and Sample BRDFs
 
 <div class="publication-banner">
 <h1><b>Learning to Learn and Sample BRDFs</b></h1>
-<h4><em>Eurographics 2023</em></h4>
+<h4><em>Computer Graphics Forum (Proceedings of Eurographics 2023)</em></h4>
 <br>
 <h4>
 <a href="https://ryushinn.github.io/">Chen Liu</a>, <a href="https://mfischer-ucl.github.io/">Michael Fischer</a>, <a href="https://www.homepages.ucl.ac.uk/~ucactri/">Tobias Ritschel</a>
@@ -203,10 +203,14 @@ We appreciate valuable comments from Vlastimil Havran, Stavros Diolatzis, and Gi
 ## Citation
 
 ```bibtex
-@article{liu2022learning,
+@article{liuLearningLearnSample2023,
   title={Learning to Learn and Sample BRDFs},
   author={Liu, Chen and Fischer, Michael and Ritschel, Tobias},
-  journal={arXiv preprint arXiv:2210.03510},
-  year={2022}
+  journal={Computer Graphics Forum (Proceedings of Eurographics)},
+  year={2023},
+  volume={42},
+  number={2},
+  pages={201--211},
+  doi={10.1111/cgf.14754},
 }
 ```
