@@ -22,6 +22,8 @@ publications: true # includes all publications
 social: false  # includes social icons at the bottom of the page
 projects: true # includes a list of projects
 # horizontal: true
+
+show_counter: true # if true, show the view counter in the footer
 ---
 
 Hi there, my name is Chen!
