@@ -4,7 +4,7 @@ title: About
 permalink: /
 
 # name_chn: 刘宸 # my name written in chinese characters
-# subtitle: MSc student at University College London (UCL)
+# subtitle: PhD student at University College London (UCL)
 
 profile:
   align: right
@@ -15,27 +15,23 @@ profile:
   #   <p>123 your address street</p>
   #   <p>Your City, State 12345</p>
 
-news: true  # includes a list of news items
-latest_posts: false  # includes a list of the newest posts
+news: true # includes a list of news items
+latest_posts: false # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 publications: true # includes all publications
-social: false  # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 projects: true # includes a list of projects
 # horizontal: true
 
 show_counter: true # if true, show the view counter in the footer
 ---
 
-Hi there, my name is Chen!
+Hi there, my name is Chen! :)
 
-Currently I am a MSc Computer Graphics Vision and Imaging (CGVI) student at [University College London](https://www.ucl.ac.uk/), and working on Meta-Learned Appearance Modelling supervised by Prof. [Tobias Ritschel](https://www.homepages.ucl.ac.uk/~ucactri/).
-Before that, I obtained my Bachelor degree of Computer Science from [Beihang University](https://buaa.edu.cn/). During my undergrad, I interned at Prof. [Xianglong Liu](https://xlliu-beihang.github.io/)'s Lab for months, and worked at ByteDance as a graphics engine intern.
+I am now a Computer Graphics PhD student at [University College London (UCL)](https://www.ucl.ac.uk/), working with Prof. [Tobias Ritschel](https://www.homepages.ucl.ac.uk/~ucactri/) and Prof. [Niloy Mitra](http://www0.cs.ucl.ac.uk/staff/N.Mitra/).
+Before that, I had a Master from UCL and obtained my Bachelor from [Beihang University](https://ev.buaa.edu.cn/). During my undergrad, I interned at Prof. [Xianglong Liu](https://xlliu-beihang.github.io/)'s Lab and worked at [ByteDance](https://www.bytedance.com/en/) as a graphics engineer.
 
-I am a graphics enthusiast who aspire to create a world satiating our childish sense of grand adventures.
-List a few things that really fascinate me: photorealistic rendering, appearance modelling, and data-driven image synthesis.
-
-<!-- TODO: include research interests and the vision. -->
-<!-- TODO: the philosophy where my vision comes and which I believe  -->
+Talking about research aspirations, my goal is to create a world satiating our "childish sense" of grand adventures. Here is a list of topics that shape the core of my works and interests: Appearance Modelling, Photorealistic Rendering, Data-driven Image Synthesis, and many others more -- AI, of course.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
