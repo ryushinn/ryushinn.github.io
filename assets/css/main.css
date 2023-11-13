@@ -1439,5 +1439,45 @@ d-appendix a:hover, d-appendix a.footnote-backlink:hover {
     grid-column: none;
   }
 }
+.top-image-container {
+  display: flex;
+  justify-content: center; /* Center the images horizontally */
+  align-items: center; /* Center the images vertically */
+  margin-bottom: 0px; /* Spacing between the images and the video containers */
+  width: 100%; /* Ensuring the container takes full width */
+}
+
+.top-image-container img {
+  margin: 0 30px; /* Adjust space between the images */
+  max-width: 30%; /* Ensure images don't overflow their container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+#NAvideoForm {
+  font-family: Libertinus Sans, Calibri, Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 5px;
+  margin-bottom: 25px;
+}
+
+.NAvideo-container {
+  margin: 3px;
+  text-align: center;
+  flex: 1; /* Allow each container to grow and shrink as needed */
+  max-width: 20%; /* Adjust this value based on your layout */
+}
+
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+.radio-buttons {
+  margin-top: 2px;
+}
 
 /*# sourceMappingURL=main.css.map */

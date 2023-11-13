@@ -2,18 +2,21 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://ryushinn.github.io/projects/graphics-courses</loc>
-<lastmod>2023-10-10T09:35:25+00:00</lastmod>
+<lastmod>2023-11-13T20:11:50+00:00</lastmod>
 </url>
 <url>
 <loc>https://ryushinn.github.io/projects/path-tracer</loc>
-<lastmod>2023-10-10T09:35:25+00:00</lastmod>
+<lastmod>2023-11-13T20:11:50+00:00</lastmod>
 </url>
 <url>
 <loc>https://ryushinn.github.io/metasampling</loc>
-<lastmod>2023-10-10T09:35:25+00:00</lastmod>
+<lastmod>2023-11-13T20:11:50+00:00</lastmod>
 </url>
 <url>
 <loc>https://ryushinn.github.io/</loc>
+</url>
+<url>
+<loc>https://ryushinn.github.io/user_study/odetexture</loc>
 </url>
 <url>
 <loc>https://ryushinn.github.io/blog/</loc>
